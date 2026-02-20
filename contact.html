@@ -195,7 +195,7 @@ themeBtn.addEventListener('click', () => {
 const langBtn = document.getElementById('langToggle');
 const langDropdown = document.getElementById('langDropdown');
 
-// 🌐 Gestion de la langue via fichiers JSON
+// Gestion de la langue via fichiers JSON
 const languageBtn = document.getElementById('langToggle');
 const languageDropdown = document.getElementById('langDropdown');
 
@@ -263,7 +263,7 @@ function resize() {
 resize();
 window.addEventListener('resize', resize);
 
-/* 🎇 Couleurs dynamiques (clair / sombre) */
+/*  Couleurs dynamiques (clair / sombre) */
 function getColor(opacity=1) {
   const dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
   return dark
@@ -271,7 +271,7 @@ function getColor(opacity=1) {
     : `rgba(200, 160, 60, ${opacity})`;   // doré plus doux en clair
 }
 
-/* ✨ Création des particules */
+/*  Création des particules */
 class Particle {
   constructor() {
     this.x = Math.random() * canvas.width;
@@ -312,7 +312,7 @@ class Particle {
   }
 }
 
-/* 🌊 Vagues lumineuses */
+/*  Vagues lumineuses */
 class Wave {
   constructor() {
     this.y = Math.random() * canvas.height;
@@ -358,7 +358,7 @@ function animate(t) {
 }
 animate();
 
-/* 🖱️ Interaction souris */
+/* Interaction souris */
 window.addEventListener("mousemove", e => {
   mouse.x = e.clientX;
   mouse.y = e.clientY;

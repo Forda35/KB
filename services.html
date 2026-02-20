@@ -100,7 +100,7 @@
         ...
       </section>
 
-      <!-- 🔥 SECTION 1 : AVANTAGES PREMIUM -->
+      <!--  SECTION 1 : AVANTAGES PREMIUM -->
       <section class="advantages-section glass fade-in parallax">
         <h2 class="section-title">Pourquoi choisir KB International ?</h2>
         <div class="advantages-grid">
@@ -124,7 +124,7 @@
         </div>
       </section>
 
-      <!-- 🔥 SECTION 2 : PROCESS PREMIUM -->
+      <!--  SECTION 2 : PROCESS PREMIUM -->
       <section class="process-section fade-in parallax">
         <h2 class="section-title">Comment ça marche ?</h2>
 
@@ -149,7 +149,7 @@
         </div>
       </section>
 
-      <!-- 🔥 SECTION 3 : CTA PREMIUM 3D -->
+      <!-- SECTION 3 : CTA PREMIUM 3D -->
       <section class="cta-section glass fade-in parallax">
         <h2>Prêt à expédier vos marchandises ?</h2>
         <p>Nos experts sont disponibles 7j/7 pour répondre à vos besoins.</p>
@@ -224,7 +224,7 @@ themeBtn.addEventListener('click', () => {
 const langBtn = document.getElementById('langToggle');
 const langDropdown = document.getElementById('langDropdown');
 
-// 🌐 Gestion de la langue via fichiers JSON
+// Gestion de la langue via fichiers JSON
 const languageBtn = document.getElementById('langToggle');
 const languageDropdown = document.getElementById('langDropdown');
 
@@ -317,7 +317,7 @@ function resize() {
 resize();
 window.addEventListener('resize', resize);
 
-/* 🎇 Couleurs dynamiques (clair / sombre) */
+/* Couleurs dynamiques (clair / sombre) */
 function getColor(opacity=1) {
   const dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
   return dark
@@ -325,7 +325,7 @@ function getColor(opacity=1) {
     : `rgba(200, 160, 60, ${opacity})`;   // doré plus doux en clair
 }
 
-/* ✨ Création des particules */
+/* Création des particules */
 class Particle {
   constructor() {
     this.x = Math.random() * canvas.width;
@@ -366,7 +366,7 @@ class Particle {
   }
 }
 
-/* 🌊 Vagues lumineuses */
+/* Vagues lumineuses */
 class Wave {
   constructor() {
     this.y = Math.random() * canvas.height;
@@ -398,7 +398,7 @@ function init() {
 }
 init();
 
-/* ✨ Animation */
+/* Animation */
 function animate(t) {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -412,7 +412,7 @@ function animate(t) {
 }
 animate();
 
-/* 🖱️ Interaction souris */
+/* Interaction souris */
 window.addEventListener("mousemove", e => {
   mouse.x = e.clientX;
   mouse.y = e.clientY;

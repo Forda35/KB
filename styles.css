@@ -1104,7 +1104,7 @@ body.dark-mode::before {
   );
 }
 
-/* 🌐 Animation douce lors du changement de langue */
+/* Animation douce lors du changement de langue */
 [data-i18n] {
   transition: opacity 0.3s ease;
 }
@@ -2023,7 +2023,7 @@ input[type="number"]::placeholder {
    Style glass + motion + 3D + parallax
 ---------------------------------------------------- */
 
-/* 🎨 Section Titles */
+/*  Section Titles */
 .section-title {
   font-size: 2.4rem;
   margin-bottom: 2rem;
@@ -2033,7 +2033,7 @@ input[type="number"]::placeholder {
   letter-spacing: -0.5px;
 }
 
-/* ✨ Glassmorphism */
+/* Glassmorphism */
 .glass {
   background: rgba(255,255,255,0.13);
   backdrop-filter: blur(10px);
@@ -2044,7 +2044,7 @@ input[type="number"]::placeholder {
   transform-style: preserve-3d;
 }
 
-/* ✨ Parallax effect */
+/* Parallax effect */
 .parallax {
   transform: translateZ(50px);
 }
@@ -2064,7 +2064,7 @@ input[type="number"]::placeholder {
 }
 
 /* ===================================================
-   🔥 SECTION 1 : Advantages
+   SECTION 1 : Advantages
 =================================================== */
 
 .advantages-section {
@@ -2088,7 +2088,7 @@ input[type="number"]::placeholder {
   transform-style: preserve-3d;
 }
 
-/* 🧊 3D Hover */
+/* 3D Hover */
 .adv-card:hover {
   transform: translateY(-8px) scale(1.03) rotateX(6deg);
   box-shadow: 0 18px 40px rgba(0,0,0,0.12);
@@ -2102,7 +2102,7 @@ input[type="number"]::placeholder {
 }
 
 /* ===================================================
-   🔥 SECTION 2 : Process
+   SECTION 2 : Process
 =================================================== */
 
 .process-section {
@@ -2147,7 +2147,7 @@ input[type="number"]::placeholder {
 }
 
 /* ===================================================
-   🔥 SECTION 3 : CTA Premium
+    SECTION 3 : CTA Premium
 =================================================== */
 
 .cta-section {
@@ -2187,7 +2187,7 @@ input[type="number"]::placeholder {
 
 
 /* ===================================================
-   📱 VERSION MOBILE (optimisation)
+    VERSION MOBILE (optimisation)
 =================================================== */
 
 @media (max-width: 768px) {

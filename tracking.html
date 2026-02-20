@@ -218,7 +218,7 @@ function resize() {
 resize();
 window.addEventListener('resize', resize);
 
-/* 🎇 Couleurs dynamiques (clair / sombre) */
+/* Couleurs dynamiques (clair / sombre) */
 function getColor(opacity=1) {
   const dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
   return dark
@@ -226,7 +226,7 @@ function getColor(opacity=1) {
     : `rgba(200, 160, 60, ${opacity})`;   // doré plus doux en clair
 }
 
-/* ✨ Création des particules */
+/* Création des particules */
 class Particle {
   constructor() {
     this.x = Math.random() * canvas.width;
@@ -267,7 +267,7 @@ class Particle {
   }
 }
 
-/* 🌊 Vagues lumineuses */
+/* Vagues lumineuses */
 class Wave {
   constructor() {
     this.y = Math.random() * canvas.height;
@@ -299,7 +299,7 @@ function init() {
 }
 init();
 
-/* ✨ Animation */
+/* Animation */
 function animate(t) {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -313,13 +313,13 @@ function animate(t) {
 }
 animate();
 
-/* 🖱️ Interaction souris */
+/* Interaction souris */
 window.addEventListener("mousemove", e => {
   mouse.x = e.clientX;
   mouse.y = e.clientY;
 });
 
-/* 📱 Sur mobile : mouvement léger au gyroscope */
+/* Sur mobile : mouvement léger au gyroscope */
 window.addEventListener("deviceorientation", e => {
   mouse.x = canvas.width/2 + e.gamma * 15;
   mouse.y = canvas.height/2 + e.beta * 15;
